@@ -8,8 +8,11 @@ If you want to see a sample output, there is a file called sample_output.txt.
 ## Usage
 
 ./list2audioBulk.sh [searchTermList] [whitelist]
+
 Whitelist = removes all playlists whitout one of the words. Newline-seperated
+
 If you dont provide a whitelist the searchTermList becomes also the whitelist.
+
 If you dont provide a searchTermList it reads from stdin.
 
 ### What does it do in detail?
